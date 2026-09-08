@@ -30,7 +30,6 @@ public:
         return rec(0, n);
     }
     int totalNQueens(int n) {
-       return solve(n);
-        
+       return solve(n); 
     }
 };
